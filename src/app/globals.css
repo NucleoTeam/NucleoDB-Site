@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --text-color: rgba(203, 203, 203, 0.72);
+  --text-color-hover: rgba(253, 253, 253, 0.72);
+  --background: rgb(77, 58, 42);
+  --button-border-background: rgba(148, 148, 148, 0.28);
+  --button-background: rgba(0, 0, 0, 0.15);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--text-color);
+  background: var(--background);
+}
+
+a.button{
+  background: var(--button-background);
+  border: var(--button-border-background) 1px solid;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 4px;
+  padding-right: 15px;
+}
+a.button svg{
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.description{
+  margin:0px;
+  padding: 0px;
+}
+.button-list{
+  text-align: center;
+}
+
+.topMenu a {
+  padding-right:20px;
+}
+
+a:hover {
+  color:var(--text-color-hover);
 }
