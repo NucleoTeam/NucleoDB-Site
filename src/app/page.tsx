@@ -15,7 +15,7 @@ export default function Home() {
           <a href={"https://docs.synload.com/books/nucleodb"}>&lt;NucleoDB Docs&gt;</a> <a href={"https://docs.synload.com/books/nucleodb/chapter/spring-data-repository-library"}>&lt;Spring Docs&gt;</a>
         </div>
       </div>
-      <div className={"relative"}>
+      <div className={"relative mt-10"}>
         <div className={"description"}>
           NucleoDB is an in-memory database designed to provide high-speed embedded replicas for microservices.
         </div>

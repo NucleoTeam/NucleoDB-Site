@@ -11,7 +11,7 @@ export default function Home() {
                     <a href={"https://docs.synload.com/books/nucleodb"}>&lt;NucleoDB Docs&gt;</a> <a href={"https://docs.synload.com/books/nucleodb/chapter/spring-data-repository-library"}>&lt;Spring Docs&gt;</a>
                 </div>
             </div>
-            <div className="mb-32 mt-5 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+            <div className="mb-32 mt-10 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
                 <a
                     href="https://animecap.com"
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
