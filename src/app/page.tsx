@@ -12,7 +12,7 @@ export default function Home() {
           NucleoDB
         </p>
         <div className="topMenu fixed mb-5 mt-5 bottom-0 left-0 flex h-48 w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a href={"https://docs.synload.com/books/nucleodb"}>&lt;NucleoDB Docs&gt;</a> <a href={"https://docs.synload.com/books/nucleodb/chapter/spring-data-repository-library"}>&lt;Spring Docs&gt;</a>
+          <a href={"https://nucleocore.com"}>&lt;NucleoCore&gt;</a> <a href={"https://docs.synload.com/books/nucleodb"}>&lt;NucleoDB Docs&gt;</a> <a href={"https://docs.synload.com/books/nucleodb/chapter/spring-data-repository-library"}>&lt;Spring Docs&gt;</a>
         </div>
       </div>
       <div className={"relative mt-10"}>

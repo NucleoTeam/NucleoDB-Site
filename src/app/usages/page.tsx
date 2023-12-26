@@ -8,7 +8,7 @@ export default function Home() {
                     <a href={"/"}>NucleoDB</a>
                 </p>
                 <div className="topMenu fixed mb-5 mt-5 bottom-0 left-0 flex h-48 w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none">
-                    <a href={"https://docs.synload.com/books/nucleodb"}>&lt;NucleoDB Docs&gt;</a> <a href={"https://docs.synload.com/books/nucleodb/chapter/spring-data-repository-library"}>&lt;Spring Docs&gt;</a>
+                    <a href={"https://nucleocore.com"}>&lt;NucleoCore&gt;</a> <a href={"https://docs.synload.com/books/nucleodb"}>&lt;NucleoDB Docs&gt;</a> <a href={"https://docs.synload.com/books/nucleodb/chapter/spring-data-repository-library"}>&lt;Spring Docs&gt;</a>
                 </div>
             </div>
             <div className="mb-32 mt-10 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
@@ -22,7 +22,7 @@ export default function Home() {
                         AnimeCap{' '}
                     </h2>
                     <p className={`m-4 max-w-[30ch] text-sm opacity-50`}>
-                        <Image width={600} height={400} src={"/sites/animecap.png"} alt={""}/>
+                        <Image width={600} height={400} src={"/animecap.png"} alt={""}/>
                         User management, Session Handling, Video MetaData, Video Progress Saving
                     </p>
                 </a>
